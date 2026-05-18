@@ -1,5 +1,8 @@
 # 🔤 Jogo de Adivinhar Palavras
 
+<img width="710" height="848" alt="image" src="https://github.com/user-attachments/assets/bbca42ea-bb6a-4a34-9203-8f17127d8cd9" />
+
+
 Projeto desenvolvido com o objetivo de criar um **jogo de adivinhação de palavras** em uma aplicação web utilizando **React**.
 
 A proposta do projeto foi aplicar os principais conceitos aprendidos em React até o momento, construindo uma experiência interativa com sistema de dicas, histórico de tentativas, validações e reinício de partida.
@@ -39,8 +42,7 @@ Durante o desenvolvimento, foram aplicados conceitos como:
 ## 🚀 Tecnologias utilizadas
 
 - React
-- TypeScript
-- JavaScript  
+- TypeScript  
 - HTML5  
 - CSS3  
 
