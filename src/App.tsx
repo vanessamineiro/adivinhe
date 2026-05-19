@@ -32,7 +32,7 @@ export default function App() {
 
     setScore(0)
     setLetter("")
-    setLettersUsed(0)
+    setLettersUsed([])
   }
 
   function handleConfirm() {
@@ -49,7 +49,7 @@ export default function App() {
 
     if (exists) {
       setLetter("")
-      return alert("Você já utilizou a letra" + value)
+      return alert("Você já utilizou a letra " + value)
     }
 
     const hits = challenge.word.toUpperCase().split("").filter((char) => char === value).length
@@ -97,7 +97,7 @@ export default function App() {
   return (
     <div className={styles.container}>
       <main>
-        <Header current={lettersUsed.length} max={challenge.word.lenght + ATTEMPTS_MARGIN} onRestart={handleRestartGame} />
+        <Header current={lettersUsed.length} max={challenge.word.length + ATTEMPTS_MARGIN} onRestart={handleRestartGame} />
 
         <Tip tip={challenge.tip} />
 
